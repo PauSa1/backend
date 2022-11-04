@@ -22,11 +22,7 @@ class booksApiTest extends TestCase
           ])->assertJsonFragment([
                'title' => $books[1]->title
           ]);
-          //$this->get(route('books.index'))->dump();
-
-          //$this->get('/api/books')->dump();
-
-          //dd($book);
+           //dd($book);
           //dd($books->count());
 
      }
